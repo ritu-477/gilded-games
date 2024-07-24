@@ -12,7 +12,6 @@ module.exports = {
 
       backgroundImage: {
         'griadent-hh': ' linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%)',
-        // Add more custom breakpoints if necessary
       },
      
      
