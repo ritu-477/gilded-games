@@ -22,7 +22,6 @@
 
 * {
     scroll-behavior: smooth;
-    outline: red;
 }
 
 .cross span:nth-child(1) {
