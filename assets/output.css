@@ -638,12 +638,20 @@ video {
   bottom: 10px;
 }
 
+.bottom-\[20\%\]{
+  bottom: 20%;
+}
+
 .left-0{
   left: 0px;
 }
 
 .left-\[25px\]{
   left: 25px;
+}
+
+.left-\[40px\]{
+  left: 40px;
 }
 
 .right-0{
@@ -656,6 +664,10 @@ video {
 
 .right-\[4\%\]{
   right: 4%;
+}
+
+.right-\[40px\]{
+  right: 40px;
 }
 
 .start-0{
@@ -672,6 +684,42 @@ video {
 
 .top-\[39\%\]{
   top: 39%;
+}
+
+.bottom-\[22\%\]{
+  bottom: 22%;
+}
+
+.right-\[215px\]{
+  right: 215px;
+}
+
+.right-\[2px\]{
+  right: 2px;
+}
+
+.right-\[250px\]{
+  right: 250px;
+}
+
+.right-\[230px\]{
+  right: 230px;
+}
+
+.bottom-\[\]{
+  bottom: ;
+}
+
+.bottom-\[2\]{
+  bottom: 2;
+}
+
+.bottom-\[2\%\]{
+  bottom: 2%;
+}
+
+.right-\[2\%\]{
+  right: 2%;
 }
 
 .z-\[-1\]{
@@ -726,10 +774,6 @@ video {
 
 .mt-\[-1px\]{
   margin-top: -1px;
-}
-
-.mt-\[-60px\]{
-  margin-top: -60px;
 }
 
 .mt-\[20px\]{
@@ -903,10 +947,6 @@ video {
 
 .flex-col{
   flex-direction: column;
-}
-
-.flex-col-reverse{
-  flex-direction: column-reverse;
 }
 
 .flex-wrap{
@@ -1245,6 +1285,10 @@ video {
   padding-top: 9px;
 }
 
+.pb-\[\]{
+  padding-bottom: ;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1459,7 +1503,6 @@ video {
 
 * {
   scroll-behavior: smooth;
-  outline: red;
 }
 
 .cross span:nth-child(1) {
@@ -1603,7 +1646,7 @@ video {
     background-image: url("../assets/images/webp/buy-uniswapbg.webp");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: contain;
   }
 
   .img-modify {
@@ -2021,6 +2064,18 @@ video {
     font-size: 72px;
   }
 
+  .md\:text-\[40px\]{
+    font-size: 40px;
+  }
+
+  .md\:text-\[35px\]{
+    font-size: 35px;
+  }
+
+  .md\:text-\[38px\]{
+    font-size: 38px;
+  }
+
   .md\:leading-\[38\.25px\]{
     line-height: 38.25px;
   }
@@ -2035,6 +2090,10 @@ video {
 
   .md\:leading-\[91\.8px\]{
     line-height: 91.8px;
+  }
+
+  .md\:text-\[35o\]{
+    color: 35o;
   }
 }
 
