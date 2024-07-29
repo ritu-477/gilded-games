@@ -686,6 +686,10 @@ video {
   z-index: 2;
 }
 
+.m-5{
+  margin: 1.25rem;
+}
+
 .mx-\[-12px\]{
   margin-left: -12px;
   margin-right: -12px;
@@ -742,6 +746,10 @@ video {
 
 .mt-\[48\.79px\]{
   margin-top: 48.79px;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
 }
 
 .block{
@@ -2058,6 +2066,10 @@ video {
     margin-top: 0;
   }
 
+  .lg\:mt-0{
+    margin-top: 0px;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -2116,6 +2128,10 @@ video {
 
   .lg\:justify-start{
     justify-content: flex-start;
+  }
+
+  .lg\:justify-center{
+    justify-content: center;
   }
 
   .lg\:justify-between{
