@@ -170,7 +170,7 @@
         background-image: url("../assets/images/webp/buy-uniswapbg.webp");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover
+        background-size: contain;
     }
 
     .img-modify {
